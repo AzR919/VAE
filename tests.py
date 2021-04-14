@@ -14,7 +14,6 @@ TOLERANCE = 1e-5
 class TestEncode(unittest.TestCase):
     def test(self):
         # Set model parameters and batch sample
-        import ipdb; ipdb.set_trace()
         for i in range(len(tests[0])):
             sample = tests[0][i]
             params = tests[1][i]
